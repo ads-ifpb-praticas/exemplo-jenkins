@@ -15,7 +15,6 @@ public class ExemploPMD {
 				String s1 = createString();
 				s1 = "string";
 				s1.indexOf('s');
-				s1.trim();
 				if(s1.isEmpty()) {
 					System.out.println(s1);
 				} else {
@@ -28,10 +27,6 @@ public class ExemploPMD {
 	}
 	
 	private static String createString() {
-		return new String();
-	}
-	
-	private static String criarString() {
 		return new String();
 	}
 }
