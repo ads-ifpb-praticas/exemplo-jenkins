@@ -9,6 +9,7 @@ import java.util.regex.Pattern;
 public class ValidadorRG {
 
     public boolean validar(String rg) {
+        
         if(rg == null) {
             return false;
         }
